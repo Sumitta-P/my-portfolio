@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- +++++++++++++++ UNICONS ++++++++++++++++ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">   
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <!-- +++++++++++++++ SWIPER CSS ++++++++++++++++ -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
+    
+    <!-- MY STYLESHEET -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="icon" href="assets/images/logotab.png" type="image/icon type">
+
+    <title>Sumitta</title>
+</head>
+<body>
+    <!-- ++++++++++ HEADER++++++++++  -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nave__logo"><img src="assets/images/mylogo.png" width="10%" alt="mylogo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="fa-solid fa-house nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fa-regular fa-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fa-regular fa-file-lines nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fa-regular fa-image nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fa-regular fa-paper-plane nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- theme change button -->
+                <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>        
+        
+    <!-- ++++++++++ MAIN ++++++++++ -->
+    <main class="main">
+        <!-- ++++++++++ HOME ++++++++++ -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://th.linkedin.com/in/sumittapokaew?trk=profile-badge" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-linkedin fa-2x home__icon"></i>
+                        </a>
+                        <a href="https://www.instagram.com/byond4289/" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-instagram fa-2x home__icon"></i>
+                        </a>
+                        <a href="https://github.com/Sumitta-P/Sumitta-P.github.io" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-github-square fa-2x home__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <img src="./assets/images/profile bg.png" 
+                                alt="profileimg" 
+                                class="home__profile-img" 
+                                xlink: href="assets/images/profile bg.png"
+                                x="12"
+                                y="18"
+                        >
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Sumitta</h1>
+                        <h3 class="home__subtitle">Frontend developer, UX/UI designer</h3>
+                        <p class="home__description">Transition into a developer, 
+                            passionate about working on complex problems and love prototyping and code. 
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="fa-regular fa-paper-plane button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="fa-solid fa-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- ++++++++++ ABOUT ++++++++++ -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/images/profile-pic.png" alt="aboutimg" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">From Physiotherapist to Web developer, working in web technology 
+                        and UX / UI design, I enjoy talking to new people, both to learn and share.
+                        I realized that there are many things that I could learn and explore about this way, 
+                        I'm looking forward to starting the new journey</p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">03+</span>
+                            <span class="about__info-name">Months <br> experience</span>
+                        </div>
+                    
+                        <div>
+                            <span class="about__info-title">03+</span>
+                            <span class="about__info-name">Completed <br> project</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/Resume-Sumitta.pdf" class="button button--flex">
+                          Download CV <i class="fa-solid fa-download button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ++++++++++ SKILLS ++++++++++ -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">Technical skills</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <div class="skills__content">
+                        <div class="skills__groupone">
+                            <i class="fa-brands fa-html5 fa-3x skills__icon"></i>
+                            <i class="fa-brands fa-css3-alt fa-3x skills__icon"></i>
+                            <i class="fa-brands fa-js-square fa-3x skills__icon"></i>
+                            <i class="fa-brands fa-react fa-3x skills__icon"></i>
+                        </div>
+
+                        <div class="skills__grouptwo">
+                            <i class="fa-brands fa-github-square fa-3x skills__icon"></i>
+                            <i class="fa-brands fa-figma fa-3x skills__icon"></i>
+                            <i class="fa-solid fa-vector-square fa-3x skills__icon"></i>
+                            <i class="fa-brands fa-jira fa-3x skills__icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ++++++++++ QUALIFICATION ++++++++++ -->
+        <section class="qualification section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="fa-solid fa-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <!-- <div class="qualification__button button--flex">
+                        <i class="fa-solid fa-briefcase qualification__icon"></i>
+                        Work
+                    </div> -->
+                </div>
+
+                <div class="qualification__sections">
+                    <!-- ++++++++++ content 1 ++++++++++ -->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!-- ++++++++++ Qualification 1 ++++++++++ -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Physiotherapist</h3>
+                                <span class="qualification__subtitle">Mahidol University</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2004 - 2008
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <!-- ++++++++++ Qualification 2 ++++++++++ -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Spanish Language, Linguistics</h3>
+                                <span class="qualification__subtitle">Ramkhamhaeng University</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2011 - 2015
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ++++++++++ Qualification 3 ++++++++++ -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Data Science</h3>
+                                <span class="qualification__subtitle">Thailand - Bootcamp</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- ++++++++++ Qualification 4 ++++++++++ -->
+                        <div class="qualification__data">
+                            <div></div>
+                            
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Illustrator</h3>
+                                <span class="qualification__subtitle">Self-taught</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2019 - present
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ++++++++++ Qualification 5 ++++++++++ -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Software Developer</h3>
+                                <span class="qualification__subtitle">Generation Thailand - Bootcamp</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- ++++++++++ Qualidication 6 ++++++++++ -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">UX Designer</h3>
+                                <span class="qualification__subtitle">Google - Coursera</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2022 - present
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ++++++++++ PORTFOLIO ++++++++++ -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Development and Design</span>
+
+            <div class="portfolio__container container swiper">
+                <div class="swiper-wrapper">
+                    <!-- ++++++++++ PORTFOLIO 1 ++++++++++ -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/images/apptenrun.jpg" alt="portfolio image" class="portfolio__img">
+                        
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Website</h3>
+                            <p class="portfolio__description">CRUD - Exercise tracker website, with MERN stack 
+                                and learned React for a week.
+                            </p>
+                            <a href="https://tenrun.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fa-solid fa-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- ++++++++++ PORTFOLIO 2 ++++++++++ -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/images/illus.jpg" alt="portfolio image" class="portfolio__img">
+                        
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Illustration</h3>
+                            <p class="portfolio__description">Icon design, Icon element with pixel perfect 
+                                by using Ai</p>
+                            <a href="https://www.shutterstock.com/g/Byond" target="_blank" class="button button--flex button--small portfolio__button">
+                                View more
+                                <i class="fa-solid fa-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="fa-solid fa-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fa-solid fa-angle-left swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- ++++++++++ CONTACT ME ++++++++++ -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+                        
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">sumittapokaew@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <form method="POST" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input name" id="name" autocomplete="off">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input email" id="email" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea type="text" name="" id="" cols="0" rows="7" class="contact__input" id="message"></textarea>
+                    </div>
+                </form>-->
+                <div>
+                    <a href="mailto:sumittapokaew@gmail.com" class="button button--fle submit" id="btn">
+                        Send Message
+                        <i class="fa-solid fa-paper-plane button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ++++++++++ FOOTER ++++++++++ -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Sumitta</h1>
+                    <span class="footer__subtitle">Frontend developer, </span>
+                    <span class="footer__subtitle">UX/UI designer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/byond4289/" target="_blank" class="footer__social">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://th.linkedin.com/in/sumittapokaew?trk=profile-badge" target="_blank" class="footer__social">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 All right reserved</p>
+        </div>
+    </footer>
+    <!-- ++++++++++ SCROLL TOP ++++++++++ -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- ++++++++++ SWIPER JS ++++++++++ -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- ++++++++++ APP JS ++++++++++ -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>   
+    <script src="/assets/js/app.js"></script>   
+</body>
+</html>
