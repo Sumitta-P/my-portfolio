@@ -303,6 +303,24 @@ img{
 
 .home__profile-img{
   width: 170px;
+  box-shadow: 5px 5px 10px rgb(200, 200, 201),
+   -5px -5px 10px white;
+  border-radius: 50%;
+}
+
+.home__profile-img:focus {
+  animation: shadow .15s ease-in-out;
+}
+
+@keyframes shadow{
+  0% {
+    box-shadow: 
+      inset 5px 5px 10px rgb(200, 200, 201),
+      inset 5px -5px 10px white;
+  }
+  100% {
+    box-shadow: none;
+  }
 }
 
 .home__data{
