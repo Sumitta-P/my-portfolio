@@ -294,7 +294,8 @@ img{
 }
 
 .home__social-icon:hover{
-  color: var(--first-color-alt);
+  /* color: var(--first-color-alt); */
+  transform: translateX(30px);
 }
 
 .home__img{
